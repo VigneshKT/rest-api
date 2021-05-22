@@ -1,14 +1,12 @@
 package io.javabrain.restapi.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Employee {
     @Id
     @Column(name = "Eid")
+    @GeneratedValue
     private int eid;
     @Column(name = "Name")
     private String name;
