@@ -1,5 +1,6 @@
-package io.javabrain.restapi;
+package io.javabrain.restapi.controller;
 
+import io.javabrain.restapi.Repository.Repository;
 import io.javabrain.restapi.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 
